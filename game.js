@@ -77,7 +77,7 @@ playSound(randomChoosenColour);
 // Playing sound according to which  button is clicked.
 
 function playSound(colorValue){
-var sound = new Audio("sounds/"+colorValue+".mp3");
+var sound = new Audio('sounds/'+colorValue+'.mp3');
 sound.play();
 };
 
